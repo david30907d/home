@@ -135,6 +135,44 @@ $(function() {
         </div>',
       showMore: showMoreBtn,
       showLess: showLessBtn,
+    }, 
+    {
+      type: 'smallItem',
+      label: '加入UDIC實驗室',
+      shortContent: '\
+        <div class="col s12 center"> \
+          <img class="timeline-photo" src="img/author-pic.jpg" alt="" /> \
+          <h5>加入UDIC實驗室</h5> \
+        </div>',
+      fullContent: '\
+        <div class="col s12 center"> \
+          <img class="timeline-photo" src="img/author-pic.jpg" alt="" /> \
+          <h5>加入UDIC實驗室</h5> \
+          <p>在指導教授范耀中老師的指導下</p> \
+          <p>學會了類神經網路、決策樹等等機器學習以及資料探勘的知識</p> \
+        </div>',
+      showMore: showMoreBtn,
+      showLess: showLessBtn,
+      forcePosition: 'right'
+    },
+    {
+      type: 'smallItem',
+      label: '擔任台中python meetup講者',
+      shortContent: '\
+        <div class="col s12 center"> \
+          <img class="timeline-photo" src="img/logo--script.svg" alt="" /> \
+          <h5>擔任台中python meetup講者</h5> \
+          <h5>因緣際會被邀請分享自己的專題~</h5> \
+        </div>',
+      fullContent: '\
+        <div class="col s12 center"> \
+          <img class="timeline-photo" src="img/logo--script.svg" alt="" /> \
+          <h5>擔任台中python meetup講者</h5> \
+          <h5>因緣際會被邀請分享自己的專題~</h5> \
+          <p>是少有的講者經驗</p> \
+        </div>',
+      showMore: showMoreBtn,
+      showLess: showLessBtn,
     },    
     {
       type: 'bigItem',
